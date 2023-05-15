@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>El juego del NIM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Cabecera para el título principal -->
+  <header>
+    <h1>Juego del Nim</h1>
+  </header>
+  <!-- Sección para la descripción del juego -->
+  <div>
+    <section class="padre">
+      <h2 id="fila1">DESCRIPCION DEL JUEGO</h2>
+      <div class="fila1">
+        <div>
+          <img class="imagen1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NimGame.svg/800px-NimGame.svg.png" alt="Foto NIM" title="Foto NIM">
+        </div>
+        <p class="texto1">Nim es un juego matemático de estrategia en el que dos jugadores se turnan para quitar objetos de distintas filas.
+          En cada turno, un jugador debe eliminar al menos un objeto, y puede eliminar cualquier número de objetos siempre que todos provengan de la misma fila.
+          Dependiendo de la versión que se esté jugando, el objetivo del juego es evitar tomar el último objeto o tomar el último objeto.
+          <br>Nim se juega típicamente como un juego de misère, en el que el jugador que toma el último objeto pierde, y
+          se puede jugar con cualquier número de filas y cualquier número de objetos.
+          <br><br><span class="version">En esta versión, se juega con 3 filas con 3, 5 y 7 elementos respectivamente.
+          <br>Los dos jugadores se alternan tomando cualquier número de objetos de cualquiera de las filas.
+          <br>El objetivo es conseguir que el oponente se vea obligado a tomar el último objeto restante.
+          <br>EL QUE COGE LA ULTIMA PIERDE</span>
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2 id="filamod">SELECCIONA MODALIDAD DE JUEGO</h2>
+    </section>
+  </div>
+  <!-- Sección para la barra de navegación donde se podrá elegir la modalidad de juego -->
+  <nav>
+    <ul id="menu">
+        <li><a href='juegoNim.html?dificultad=facil&empieza=jugador'>Nivel fácil empieza jugador</a></li>
+        <li><a href='juegoNim.html?dificultad=facil&empieza=CPU'>Nivel fácil empieza CPU</a></li>
+        <li><a href='juegoNim.html?dificultad=dificil&empieza=jugador'>Nivel difícil empieza jugador</a></li>
+        <li><a href='juegoNim.html?dificultad=dificil&empieza=CPU'>Nivel difícil empieza CPU</a></li>
+    </ul>
+  </nav>
+  <!-- Pie para el final de la página -->
+  <footer>
+    <div>
+        <img class="imageniron" src="https://www.aial.es/wp-content/uploads/2018/11/Logo-Ironhack.jpg" alt="Logo iron" title="Logo iron">
+    </div>
+    <p>© 2023 - Todos los derechos reservados</p>
+    <p> Realizado por: Raúl Navarro Sanz</p>
+  </footer>
+
+</body>
+
+</html>

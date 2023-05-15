@@ -1,0 +1,182 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+  }
+
+  body {
+    padding: 20px
+  }
+
+  /* Header */
+
+  header {
+    padding: 0px;
+    text-align: center;
+    background: darkgray;
+    border: 3px solid black;
+    border-radius: 100px;
+  }
+
+  header h1 {
+    margin: 30px 0;
+  }
+
+  /* Form */
+
+  main {
+    text-align: center;
+    margin: 30px 0;
+    border: 3px solid black;
+    border-radius: 100px;
+    background: rgb(173, 146, 146);
+  }
+
+  input {
+    margin: 0px 10px;
+    padding: 20px;
+    font-size: 15pt
+  }
+
+  button {
+    margin: 0px 10px;
+    padding: 20px;
+    border: none;
+    background-color: lightblue;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+
+  .cajacentrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cajajugada {
+    text-align: center;
+    margin: 30px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(193, 221, 146);
+    width: 50%;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 100px;
+    background: rgb(165, 156, 231);
+  }
+
+  #cajaturno {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+  }
+
+  label {
+    font-size: 15pt;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+
+  /* Footer */
+
+  footer{
+    background: darkgray;
+    text-align: center;
+    padding-top: 12px;
+    margin: 20px;
+  }
+
+  .imageniron{
+    width: 20%;
+  }
+
+  /* index */
+
+.imagen1{
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+
+}
+
+.boton1{
+  white-space: normal;
+}
+
+.texto1{
+  font-size: 20px;
+  padding: 10px;
+}
+
+#menu {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu li {
+  list-style: none;
+  list-style-type: none;
+  background-color: blue;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.padre{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.version{
+  font-weight: bold;
+}
+
+.centrado{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Large*/
+@media (min-width: 768px) {
+
+  .texto1 {
+    padding: 10px;
+  }
+  .imagen1 {
+    padding: 10px;
+  }
+  .fila1 {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #menu {
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+  }
+
+  .imageniron{
+      width: 10%;
+  }
+
+}
+
+
